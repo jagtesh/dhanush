@@ -1,5 +1,5 @@
 /*
-Authors:	Muhammed Shahid, Jagtesh Chadha
+Authors:	Jagtesh Chadha
 Date:		14th November, 2006
 Title:		Dhanu-sh - A simple Unix Shell
 Version:	0.1
