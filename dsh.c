@@ -90,8 +90,8 @@ void set_prompt()
 	/* produce a prompt like user@domain:/present/directory$ */
 	getcwd(pwd, BUFSIZE);
 	strcpy(buf, (char *)getenv("USER"));
-	strcat(buf, "@");
-	strcat(buf, (char *)getenv("HOSTNAME"));
+	// strcat(buf, "@");
+	// strcat(buf, (char *)getenv("HOSTNAME"));
 	strcat(buf, ":");
 	strcat(buf, pwd);
 	if (strcmp((char *)getenv("USER"), "root") == 0)
